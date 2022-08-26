@@ -1,4 +1,4 @@
-<img src="portrait.png" 
+<img src="portrait.jpg" 
   width="50%"
   height="50%"/>
 # Justin Stutler

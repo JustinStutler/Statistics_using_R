@@ -1,3 +1,6 @@
+<img src="portrait.png" 
+  width="50%"
+  height="50%"/>
 # Justin Stutler
 ### Sophomore USF Information Science - Data Science and Analytics
 ### Jstutler@usf.edu

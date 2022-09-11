@@ -68,5 +68,5 @@ summary(s2)
 <img src="module3DataSummary.png" 
   width="50%"
   height="50%"/>
-### Comparing Datasets s1 and s2
+### Comparing Datasets s1 and s2 
 ### The values in the dataset s2 are equivalent to the values of dataset s1 + 10. The interquartile range, mean, median, mode, and range of s2 are equivalent to the values in s1 + 10. The variance of s1 and s2 is the same at 8.3 repeating. The standard deviation of s1 and s2 is the same at ~2.887. The variance and standard deviation of the datasets are the same because the values deviated from the mean the same amount.

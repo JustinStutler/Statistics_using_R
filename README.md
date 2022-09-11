@@ -60,10 +60,9 @@ s2variance = var(s2)
 # standard deviation under variation
 s1SD = sd(s1)
 s2SD = sd(s2)
-# compare results between s1 and s2 by discussing differences
+# results
 summary(s1)
 summary(s2)
-# post result and discussion on your blog
 ```
 <img src="module3DataSummary.png" 
   width="50%"

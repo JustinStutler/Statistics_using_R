@@ -74,9 +74,10 @@ summary(s2)
 &nbsp;
 
 ### Module 4 Assignment
-<img src="question_a.jpg"/>
-### Response
-```
+&nbsp;
+<img src="question_a.JPG"/>
+&nbsp;
+````
 A. 
 a1. P(A) = 10/90 + 20/90 = 30/90 = 1/3
 a2. P(B) = 10/90 + 20/90 = 30/90 = 1/3
@@ -87,19 +88,21 @@ P(A | B) = 5/9
 P(A) + P(B) = 1/3 + 1/3 = 2/3
 5/9 != 2/3
 P(A | B) != P(A) + P(B)? no
-```
-<img src="question_b.jpg"/>
-### Response
-```
+````
+&nbsp;
+<img src="question_b.JPG"/>
+&nbsp;
+````
 B. 
 b1. The answer of 11% is true.
 b2. We know the answer is true. Bayes’ Theorum allows us to evaluate the probability of the weatherman’s successful prediction of rain. This value, 11.11%, tells us that it will not rain more often than not when the weatherman predicts rain. Therefore, there is aobut a 89% chance it will not rain on Jane’s wedding day tomorrow.
-```
-<img src="question_c.jpg"/>
-### Response
-```
+````
+&nbsp;
+<img src="question_c.JPG"/>
+&nbsp;
+````
 C.
 * using RStudio we get
 C1. dbinom(10, 10, 0.2) = 1.024e-07
 ### The probability of 10 successes in a row given a probability of success of 0.2 (20%) is 1.024e-07.
-```
+````

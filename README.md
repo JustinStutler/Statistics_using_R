@@ -69,3 +69,42 @@ summary(s2)
   height="50%"/>
 ### Comparing Datasets s1 and s2 
 ### The values in the dataset s2 are equivalent to the values of dataset s1 + 10. The interquartile range, mean, median, mode, and range of s2 are equivalent to the values in s1 + 10. The variance of s1 and s2 is the same at 8.3 repeating. The standard deviation of s1 and s2 is the same at ~2.887. The variance and standard deviation of the datasets are the same because the values deviated from the mean the same amount.
+
+&nbsp;
+&nbsp;
+
+### Module 4 Assignment
+```
+A. 
+
+a1. P(A) = 10/90 + 20/90 = 30/90 = 1/3
+
+a2. P(B) = 10/90 + 20/90 = 30/90 = 1/3
+
+a3. P(A | B) = P(A + B) = P(A) + P(B) - P(A n B)
+
+P(A | B) = 1/3 + 1/3 - 1/9 = 5/9
+
+a4. P(A | B) = P(A) + P(B)?
+
+P(A | B) = 5/9
+
+P(A) + P(B) = 1/3 + 1/3 = 2/3
+
+5/9 != 2/3
+
+P(A | B) != P(A) + P(B)? no
+
+B. 
+
+b1. The answer of 11% is true.
+
+b2. We know the answer is true. Bayes’ Theorum allows us to evaluate the probability of the weatherman’s successful prediction of rain. This value, 11.11%, tells us that it will not rain more often than not when the weatherman predicts rain. Therefore, there is aobut a 89% chance it will not rain on Jane’s wedding day tomorrow.
+
+C.
+* using RStudio we get
+C1. dbinom(10, 10, 0.2) = 1.024e-07
+
+The probability of 10 successes in a row given a probability of success of 0.2 (20%) is 1.024e-07.
+```
+

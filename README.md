@@ -106,5 +106,5 @@ Therefore, there is about a 89% chance it will not rain on Jane’s wedding day 
 C.
 * using RStudio we get
 C1. dbinom(10, 10, 0.2) = 1.024e-07
-### The probability of 10 successes in a row given a probability of success of 0.2 (20%) is 1.024e-07.
+The probability of 10 successes in a row given a probability of success of 0.2 (20%) is 1.024e-07.
 ````

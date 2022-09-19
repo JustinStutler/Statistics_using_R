@@ -95,7 +95,9 @@ P(A | B) != P(A) + P(B)? no
 ````
 B. 
 b1. The answer of 11% is true.
-b2. We know the answer is true. Bayes’ Theorum allows us to evaluate the probability of the weatherman’s successful prediction of rain. This value, 11.11%, tells us that it will not rain more often than not when the weatherman predicts rain. Therefore, there is aobut a 89% chance it will not rain on Jane’s wedding day tomorrow.
+b2. We know the answer is true. Bayes’ Theorum allows us to evaluate the probability of the weatherman’s successful prediction of rain. 
+This value, 11.11%, tells us that it will not rain more often than not when the weatherman predicts rain. 
+Therefore, there is about a 89% chance it will not rain on Jane’s wedding day tomorrow.
 ````
 &nbsp;
 <img src="question_c.JPG"/>

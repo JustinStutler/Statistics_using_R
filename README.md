@@ -108,3 +108,122 @@ C.
 C1. dbinom(10, 10, 0.2) = 1.024e-07
 The probability of 10 successes in a row given a probability of success of 0.2 (20%) is 1.024e-07.
 ````
+
+&nbsp;
+&nbsp;
+### Module 5 Assignment : P-val and Correlation Analysis
+### First Question: 
+### The director of manufacturing at a cookies needs to determine whether a new machine is production a particular type of cookies according to the manufacturer's specifications, which indicate that cookies should have a mean of 70 and standard deviation of 3.5 pounds. A sample pf 49 of cookies reveals a sample mean breaking strength of 69.1 pounds.
+### A. State the null and alternative hypothesis _______
+```
+Null Hypothesis (H_o) : u ≥ 70
+The cookies have a breaking strength of 70 or greater.
+Alternate Hypothesis (H_a) : u < 70
+The cookies have a breaking strength of less than 70.
+```
+### B. Is there evidence that the machine is not meeting the manufacturer's specifications for average strength? Use a 0.05 level of significance _______ 
+### C. Compute the p value and interpret its meaning _______
+```
+1. Specify the level of significance
+    level of significance (a) = 0.05
+2. Compute the Z-value
+    z = (mean - u)/(sd / sqrt(n))
+    mean = 70
+    u = 69.1
+    sd = 3.5
+    n = 49
+    z = (70 - 69.1) / (3.5 / sqrt(49)) = 1.8
+3. Compute p-val
+    for z = 1.8, cumulative probability = 0.964070
+    p-val = 1 - cumulative probability = 1 - 0.964070 = 0.03593
+4. Determine whether to reject H_o    
+    Because the p-value of 0.03593 < 0.05, there is sufficient statistical evidence to infer the cookies do not meet the manufacturer’s specification of an average breaking strength of 70 lbs.
+```
+### D. What would be your answer in (B) if the standard deviation were specified as 1.75 pounds?______
+```
+if sd = 1.75, z = ?
+z = (70 - 69.1) / (1.75 / sqrt(49)) = 3.6
+cumulative probability = 0.99984
+p-val = 1 - 0.99984 = 0.00016
+Because the p-value of 0.00016 < 0.01, there is a significant amount of statistical evidence to infer the cookies do not meet the manufacturer’s specification of an average breaking strength of 70.
+```
+### E. What would be your answer in (B) if the sample mean were 69 pounds and the standard deviation is 3.5 pounds? ______
+```
+if mean = 69, sd = 3.5, z = ?
+z = (70 - 69) / (3.5 / sqrt(49)) = 2
+cumulative probability = 0.97725
+p-val = 1 - 0.97725 = 0.02275
+Because the p-value of 0.02275 > 0.05, there is sufficient statistical evidence to infer the cookies do not meet the manufacturer’s specification of an average breaking strength of 70.
+```
+&nbsp;
+### Second Question:
+### If x̅ = 85, σ = standard deviation = 8, and n=64, set up 95% confidence interval estimate of the population mean μ. 
+```
+given : mean = 85, sd = 8, n=64
+set up a 95% confidence interval estimate of the population mean u
+z = 1.96 for 95% confidence
+Confidence Interval Formula
+mean +- z(sd / sqrt(n))
+85 + 1.96(8/sqrt(64)) = 86.96
+85 - 1.96(8/sqrt(64)) = 83.04
+With 95% confidence the population mean is between 83.04 and 86.96, based on 64 samples.
+```
+
+&nbsp;
+
+### Third Question
+### using the following dataset
+
+<img src"girlBoyData.JPG"/>
+
+### a. Calculate the correlation coefficient for this data set _____
+```
+The correlation coefficient comparing the total values for girls and boys is 0.9999681; This indicates a strong positive correlation of 0.99.
+```
+### b. Pearson correlation coefficient _____
+```
+The Pearson correlation coefficient comparing the total values for girls and boys is 0.9999681; this indicates a strong positive correlation of 0.99.
+```
+### c. Create plot of the correlation
+<img src="corrgramGirlsBoys"/>
+
+### Completed in R below
+
+```
+# Module 5 Assignment
+# Correlation Analysis
+setwd("C:/Users/justi/Desktop/r")
+
+# x = girls, y = boys
+# vars = goals, grades, popular, time
+
+# create data
+# create girls
+goals = c(4, 5, 6)
+grades = c(49, 50, 69)
+popular = c(24, 36, 38)
+timeSpent = c(19, 22, 28)
+total = c(92, 108, 135)
+girls = data.frame(goals, grades, popular, timeSpent, total)
+girls
+
+# create boys
+# goals is the same
+grades = c(46.1, 54.2, 67.7)
+popular = c(26.9, 31.6, 39.5)
+timeSpent = c(18.9, 22.2, 27.8)
+total = c(95.9, 113, 141)
+boys = data.frame(goals, grades, popular, timeSpent, total)
+boys
+
+cor(girls, boys)
+
+data = data.frame(girls, boys)
+data
+
+# correlation
+cor(data, method="pearson")
+cor(data, method="spearman")
+# plot
+corrgram(data)
+```

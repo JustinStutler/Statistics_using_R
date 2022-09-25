@@ -179,11 +179,20 @@ With 95% confidence the population mean is between 83.04 and 86.96, based on 64 
 ### a. Calculate the correlation coefficient for this data set _____
 ```
 The correlation coefficient comparing the total values for girls and boys is 0.9999681; This indicates a strong positive correlation of 0.99.
+More Correlations can be found below.
 ```
+
+<img src="girlBoyCorr.JPG"/>
+
 ### b. Pearson correlation coefficient _____
+
 ```
 The Pearson correlation coefficient comparing the total values for girls and boys is 0.9999681; this indicates a strong positive correlation of 0.99.
+More Correlations can be found below.
 ```
+
+<img src="girlBoyPearsonCorr"/>
+
 ### c. Create plot of the correlation
 <img src="corrgramGirlsBoys"/>
 

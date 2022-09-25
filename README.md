@@ -182,7 +182,7 @@ The correlation coefficient comparing the total values for girls and boys is 0.9
 More Correlations can be found below.
 ```
 
-<img src="girlBoyCorr"/>
+<img src="girlBoyCorr.JPG"/>
 
 ### b. Pearson correlation coefficient _____
 
@@ -194,7 +194,7 @@ More Correlations can be found below.
 <img src="girlBoyPearsonCorr.JPG"/>
 
 ### c. Create plot of the correlation
-<img src="corrgramGirlsBoys.JPG"/>
+<img src="corrgramGirlsBoys"/>
 
 ### Completed in R below
 

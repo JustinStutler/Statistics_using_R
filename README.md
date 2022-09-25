@@ -194,7 +194,7 @@ More Correlations can be found below.
 <img src="girlBoyPearsonCorr"/>
 
 ### c. Create plot of the correlation
-<img src="corrgramGirlsBoys"/>
+<img src="corrgramGirlsBoys.JPG"/>
 
 ### Completed in R below
 

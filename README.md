@@ -174,7 +174,7 @@ With 95% confidence the population mean is between 83.04 and 86.96, based on 64 
 ### Third Question
 ### using the following dataset
 
-<img src"girlBoyData.JPG"/>
+<img src="girlBoyData.JPG"/>
 
 ### a. Calculate the correlation coefficient for this data set _____
 ```

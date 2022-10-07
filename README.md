@@ -111,7 +111,7 @@ The probability of 10 successes in a row given a probability of success of 0.2 (
 
 &nbsp;
 &nbsp;
-### Module 5 Assignment : P-val and Correlation Analysis
+## Module 5 Assignment : P-val and Correlation Analysis
 ### First Question: 
 ### The director of manufacturing at a cookies needs to determine whether a new machine is production a particular type of cookies according to the manufacturer's specifications, which indicate that cookies should have a mean of 70 and standard deviation of 3.5 pounds. A sample pf 49 of cookies reveals a sample mean breaking strength of 69.1 pounds.
 ### A. State the null and alternative hypothesis _______
@@ -236,3 +236,63 @@ cor(data, method="spearman")
 # plot
 corrgram(data)
 ```
+
+## Module 6 Assignment
+### A
+```
+// Module 6 Assignment
+// Justin Stutler
+
+// A
+// consider a population: 8,14,16,10,11
+p = c(8,14,16,10,11)
+// compute mean and standard deviation
+pmean = mean(p)
+pmean
+
+psd = sd(p)
+psd
+
+// select a random sample of size 2
+sample = c(16, 11)
+
+// compute mean and standard deviation for sample
+smean = mean(sample)
+smean
+
+ssd = sd(sample)
+ssd
+
+// compare sample mean and sd to population
+smean
+pmean
+ssd
+psd
+
+
+// smean of 13.5 is larger than pmean of 11.8
+// ssd of 3.536 is larger than psd of 3.194
+```
+### B
+```
+// B
+// n = 100, p =0.95
+pn = 0.95 * 100
+pn
+// pn = 95 >= 10
+qn = 0.05 * 100
+// qn = 5 ! >= 10
+// therefore not normal distribution
+// 10 = 0.05n
+n = 10 / 0.05
+n
+// smallest value is n = 200
+```
+### C
+### explain how rbinorm is probably more suited for coin flip simulation than sample.
+```
+rbinorm is suited for something with 2 mutually exclusive outcomes with consistent probability such as flipping a coin. The 2 mutually exclusive outcomes are landing heads or tails with each of the options having a consistent probability of 0.5.
+
+Sampling can be used with replacement or without. Sampling without replacement would not work in the case of flipping a coin. Sampling with replacement would work if the sample contained an equal amount of heads and tails options, but the concept of flipping a single object with a binary outcome just comes more naturally froma binomial distribution.
+```
+

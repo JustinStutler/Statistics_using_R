@@ -296,3 +296,77 @@ rbinorm is suited for something with 2 mutually exclusive outcomes with consiste
 Sampling can be used with replacement or without. Sampling without replacement would not work in the case of flipping a coin. Sampling with replacement would work if the sample contained an equal amount of heads and tails options, but the concept of flipping a single object with a binary outcome just comes more naturally froma binomial distribution.
 ```
 
+## Module 7 Assignment
+### R Code
+```
+// Module 7 Assignment
+// Regression
+// Justin Stutler
+
+// 1.1 Define the relationship between the predictor and response variable
+// Predictor: X
+// Response: y
+// Describe x by y
+
+d.data = data.frame(
+ x = c(16, 17, 13, 18, 12, 14, 19, 11, 11, 10),
+ y = c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48)
+)
+d.data
+
+// 1.2 calculate the coefficients
+d.regression = lm(x ~ y, data = d.data)
+d.regression
+
+// 2
+// create data
+visit.data = data.frame(
+  discharge = c(3.600, 1.800, 3.333, 2.283, 4.533, 2.883),
+  waiting = c(79, 54, 74, 62, 85, 55)
+)
+visit.data
+
+// 2.1
+// Predictor: discharge
+// Response: waiting
+// Describe discharge by waiting
+visit.regression = lm(discharge ~ waiting, data = visit.data)
+visit.regression
+
+// 2.2 extract coefficients
+visit.coeffs = coefficients(visit.regression)
+visit.coeffs
+
+// 2.3 fit discharge duration
+wait = 80
+duration = visit.coeffs[1] + visit.coeffs[2]*wait
+duration
+
+// 3
+// load mtcars data set
+car.data = mtcars[,c("mpg","disp","hp","wt")]
+print(head(car.data))
+
+// 3.1 Examine the relationship Multi Regression Model as stated above and its Coefficients using 4 different variables from mtcars (mpg, disp, hp and wt). 
+// what does the multi regression model and coefficients tells about the data? 
+car.regression = lm(formula = mpg ~ disp + hp + wt, data = car.data)
+car.regression
+// (Intercept) gives the y intercept
+// disp, hp, wt display the change in these variables per 1 mpg change 
+
+// 4
+// required library
+library(ISwR)
+// 4.1 According to the fitted model, what is the predicted metabolic rate for a body weight of 70 kg? 
+plot(metabolic.rate~body.weight,data=rmr)
+
+r = lm(metabolic.rate ~ body.weight, data = rmr)
+r
+coeffs = coefficients(r)
+coeffs
+body_weight = 70
+dur = coeffs[1] + coeffs[2]*body_weight
+dur
+
+// Based on the simple linear regression model, if the body weight is 70 kg, we expect the metabolic rate to be 1305.394
+```

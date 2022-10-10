@@ -370,3 +370,10 @@ dur
 
 // Based on the simple linear regression model, if the body weight is 70 kg, we expect the metabolic rate to be 1305.394
 ```
+
+### R Studio Console
+
+<img src="assignment7.1.JPG"/>
+<img src="assignment7.2.JPG"/>
+<img src="assignment7.3.JPG"/>
+<img src="assignment7.4.JPG"/>

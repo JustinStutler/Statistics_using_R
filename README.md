@@ -377,3 +377,12 @@ dur
 <img src="assignment7.2.JPG"/>
 <img src="assignment7.3.JPG"/>
 <img src="assignment7.4.JPG"/>
+
+
+## Assignment 8 : ANOVA
+### R Studio Code
+<img src="assignment8.0.JPG"/>
+### R Studio Console
+<img src="assignment8.1.JPG"/>
+<img src="assignment8.2.JPG"/>
+<img src="assignment8.3.JPG"/>

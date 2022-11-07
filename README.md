@@ -404,7 +404,7 @@ dur
 ### R Studio Code
 <img src="assignment10_code.JPG"/>
 ### R Studio Console
-<img src="assignment10.1.JPG"/>
-<img src="assignment10.2.JPG"/>
+<img src="assignment10.1.jpg"/>
+<img src="assignment10.2.jpg"/>
 <img src="assignment10.3.JPG"/>
 

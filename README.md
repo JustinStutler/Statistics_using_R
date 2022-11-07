@@ -399,3 +399,12 @@ dur
 <img src="assignment9.6.JPG"/>
 <img src="assignment9.7.JPG"/>
 <img src="assignment9.8.JPG"/>
+
+## Assignment 10
+### R Studio Code
+<img src="assignment10_code.JPG"/>
+### R Studio Console
+<img src="assignment10.1.JPG"/>
+<img src="assignment10.2.JPG"/>
+<img src="assignment10.3.JPG"/>
+

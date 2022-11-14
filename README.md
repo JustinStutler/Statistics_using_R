@@ -416,11 +416,11 @@ dur
 <img src="assignment11.code.1.JPG"/>
 
 ### R Studio Console
-<img src="assignment11.0.jpg"/>
-<img src="assignment11.1.jpg"/>
-<img src="assignment11.2.jpg"/>
-<img src="assignment11.3.jpg"/>
-<img src="assignment11.4.jpg"/>
-<img src="assignment11.5.jpg"/>
-<img src="assignment11.6.jpg"/>
-<img src="assignment11.7.jpg"/>
+<img src="assignment11.0.JPG"/>
+<img src="assignment11.1.JPG"/>
+<img src="assignment11.2.JPG"/>
+<img src="assignment11.3.JPG"/>
+<img src="assignment11.4.JPG"/>
+<img src="assignment11.5.JPG"/>
+<img src="assignment11.6.JPG"/>
+<img src="assignment11.7.JPG"/>

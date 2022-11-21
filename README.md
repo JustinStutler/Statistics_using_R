@@ -424,3 +424,15 @@ dur
 <img src="assignment11.5.JPG"/>
 <img src="assignment11.6.JPG"/>
 <img src="assignment11.7.JPG"/>
+
+## Assignment 12
+### R Studio Code
+<img src="m12_code.JPG"/>
+
+### R Studio Console
+<img src="m12_console1.JPG"/>
+<img src="m12_console2.JPG"/>
+<img src="m12_plot.JPG"/>
+<img src="m12_console3.JPG"/>
+
+

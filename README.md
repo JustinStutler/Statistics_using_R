@@ -15,11 +15,16 @@
 ### RStudio Code
 <img src="final_code.JPG"/>
 <img src="final_code1.JPG"/>
+
+&nbsp;
+
 ### RStudio Console
 <img src="final_output.JPG"/>
+<img src="final_plot.JPG"/>
 <img src="final_output1.JPG"/>
 <img src="final_output2.JPG"/>
 
+### This is related to our classwork, as we learned anova, paired t-tests, and TukeyHSD methods of analysis in class.
 
 
 ### First R Studio Assignment LIS 4372

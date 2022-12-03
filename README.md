@@ -10,6 +10,18 @@
 ### Outside of school, I enjoy yoga, cooking, board games, video games, anime, documentaries, learning, and meeting new people.
 &nbsp;
 &nbsp;
+
+## Final Project
+### RStudio Code
+<img src="final_code.JPG"/>
+<img src="final_code1.JPG"/>
+### RStudio Console
+<img src="final_output.JPG"/>
+<img src="final_output1.JPG"/>
+<img src="final_output2.JPG"/>
+
+
+
 ### First R Studio Assignment LIS 4372
 ``` 
 1 assignment = c(6,18,14,22,27,17,22,20,22)

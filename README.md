@@ -1,7 +1,3 @@
-<img src="portrait.jpg" 
-  width="50%"
-  height="50%"/>
-
 # Statistics in R and Python
 
 This section showcases my work from the Statistics course at the University of South Florida (USF), where I applied statistical techniques using R and Python.
